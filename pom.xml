@@ -58,6 +58,36 @@
 		</dependencies>
 	</dependencyManagement>
 	
+	<dependencies>
+			<!--ZK EE only -->
+			<dependency>
+				<groupId>org.zkoss.zk</groupId>
+				<artifactId>zkmax</artifactId>
+			</dependency>
+			<dependency>
+				<groupId>org.zkoss.zk</groupId>
+				<artifactId>zuti</artifactId>
+			</dependency>
+			
+			<dependency>
+				<groupId>org.zkoss.zk</groupId>
+				<artifactId>zkplus</artifactId>
+			</dependency>
+			<dependency>
+				<groupId>org.zkoss.zk</groupId>
+				<artifactId>zul</artifactId>
+			</dependency>
+			<dependency>
+				<groupId>org.zkoss.zk</groupId>
+				<artifactId>zkbind</artifactId>
+			</dependency>
+			
+			<dependency>
+            			<groupId>org.springframework.boot</groupId>
+            			<artifactId>spring-boot-dependencies</artifactId>
+        		</dependency>
+		</dependencies>
+	
 	<repositories>
         <repository>
             <id>ZK EE</id>
