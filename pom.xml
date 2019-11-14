@@ -12,7 +12,7 @@
 		<spring-boot.version>2.1.8.RELEASE</spring-boot.version>
 	</properties>
 
-	<dependencyManagement>
+	
 		<dependencies>
 			<!--ZK EE only -->
 			<dependency>
@@ -54,38 +54,6 @@
             			<version>${spring-boot.version}</version>
             			<type>pom</type>
             			<scope>import</scope>
-        		</dependency>
-		</dependencies>
-	</dependencyManagement>
-	
-	<dependencies>
-			<!--ZK EE only -->
-			<dependency>
-				<groupId>org.zkoss.zk</groupId>
-				<artifactId>zkmax</artifactId>
-			</dependency>
-			<dependency>
-				<groupId>org.zkoss.zk</groupId>
-				<artifactId>zuti</artifactId>
-			</dependency>
-			
-			<dependency>
-				<groupId>org.zkoss.zk</groupId>
-				<artifactId>zkplus</artifactId>
-			</dependency>
-			<dependency>
-				<groupId>org.zkoss.zk</groupId>
-				<artifactId>zul</artifactId>
-			</dependency>
-			<dependency>
-				<groupId>org.zkoss.zk</groupId>
-				<artifactId>zkbind</artifactId>
-			</dependency>
-			
-			<dependency>
-            			<groupId>org.springframework.boot</groupId>
-            			<artifactId>spring-boot-dependencies</artifactId>
-				<version>${spring-boot.version}</version>
         		</dependency>
 		</dependencies>
 	
