@@ -9,7 +9,7 @@
 
 	<properties>
 		<spring-boot.version>2.1.8.RELEASE</spring-boot.version>
-		<spring-cloud.version>Finchley.RC1</spring-cloud.version>
+		<spring-cloud.version>Hoxton.RC2</spring-cloud.version>
 	</properties>
 
     <dependencyManagement>
